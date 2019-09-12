@@ -1,0 +1,35 @@
+.promo {
+	background-color: $pink-color;
+	background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 30px;
+}
+
+.promo__title {
+	@include font-params(48px, 56px);
+	color: #ffffff;
+	text-align: center;
+}
+
+.promo__text {
+	@include font-params(14px, 20px);
+	color: #ffffff;
+
+}
+
+.promo__button {
+	display: block;
+	width: 140px;
+	height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.promo__wrapper {
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 10px;
+}

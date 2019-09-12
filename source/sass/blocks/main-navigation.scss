@@ -1,0 +1,20 @@
+.main-navigation {
+	@include font-params(14px, 16px);
+}
+
+.main-navigation__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-navigation__link {
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	padding: 20px;
+
+	&:hover,
+	&:focus {
+		color: $pink-color;
+	}
+}

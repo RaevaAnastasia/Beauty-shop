@@ -1,0 +1,39 @@
+.page-footer {
+	background-color: #ffffff;
+	padding-top: 30px;
+}
+
+.page-footer__phone {
+	@include font-params(16px, 19px);
+	text-align: center;
+}
+
+.page-footer__info {
+	background-color: $gray-color;
+	padding: 25px 30px;
+}
+
+.page-footer__copyright {
+	@include font-params(12px, 14px);
+	color: #828282;
+	text-align: center;
+}
+
+.page-footer__politics {
+	@include font-params(12px, 14px);
+	color: #828282;
+	text-align: center;
+}
+
+.page-footer__adress {
+	text-align: center;
+}
+
+.page-footer__button {
+	width: 170px;
+	height: 40px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 20px;
+}

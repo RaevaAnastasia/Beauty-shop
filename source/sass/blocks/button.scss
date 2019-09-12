@@ -1,0 +1,38 @@
+.button {
+	@include font-params(14px, 16px);
+	color: #000000;
+	border: 2px solid $pink-color; 
+	background-color: #ffffff;
+	border-radius: 40px;
+	text-decoration: none;
+
+	&--white {
+	color: #fffffff;
+	background-color: transparent;
+	border-color: #ffffff;
+
+		&:hover,
+		&:focus {
+			background-color: #ffffff;	
+			color: $dark-gray-color;
+		}
+	}
+
+	&--pink {
+	color: #fffffff;
+	background-color: $pink-color; 
+	border-radius: 30px;
+
+		&:hover,
+		&:focus {
+			background-color: #ffffff;
+			color: $pink-color;
+		}
+	}
+
+	&:hover,
+	&:focus {
+		background-color: $pink-color;
+		outline: none;
+	}
+}

@@ -1,0 +1,43 @@
+.product {
+	background-color: #ffffff;
+	padding-bottom: 20px;
+}
+
+.product__link {
+	@include font-params(14px, 20px);
+	color: $dark-gray-color;
+	text-decoration: none;
+}
+
+.product__price {
+	@include font-params(21px, 25px);
+	letter-spacing: 0.05em;
+	width: 80px;
+	margin: 20px auto;
+}
+
+.product {
+	width: 80%;
+	margin: 10px 10%; 
+}
+
+.product__img-wrap {
+	width: 50%;
+	margin: 5px 25%;
+}
+
+.product__title {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.product__button {
+	display: block;
+	width: 135px;
+	height: 35px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 7px;
+	box-sizing: border-box;
+}
+

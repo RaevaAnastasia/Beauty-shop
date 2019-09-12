@@ -1,0 +1,26 @@
+.to-shopmap {
+	background-color: $pink-color;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.to-shopmap__title {
+	@include font-params(18px, 21px);
+	color: #ffffff;
+}
+
+.to-shopmap__description {
+	@include font-params(14px, 20px);
+	color: #ffffff;
+	width: 145px;
+}
+
+.to-shopmap__button {
+	width: 170px;
+	height: 35px;
+	display: block;
+	text-align: center;
+	padding-top: 7px;
+	box-sizing: border-box;
+}

@@ -1,0 +1,6 @@
+.page {
+	min-width: 320px;
+	font-family: "Roboto", Arial, sens-serif;
+	@include font-params(14px, 20px);
+	background-color: $gray-color;
+}

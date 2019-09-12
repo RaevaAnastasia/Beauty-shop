@@ -1,0 +1,19 @@
+.social {
+	display: flex;
+	
+	margin: 0 auto;
+	width: 70%;
+}
+
+.social__link {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid $pink-color;
+	padding-bottom: 12px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-right: 20px;
+
+}

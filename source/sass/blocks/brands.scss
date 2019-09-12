@@ -1,0 +1,21 @@
+.brands__item {
+	background-color: #ffffff;
+	border: 1px solid $gray-color;
+	width: 100%;
+}
+
+.brands__list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.brands {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.brands__link {
+	display: block;
+	padding: 35px 60px;
+}
